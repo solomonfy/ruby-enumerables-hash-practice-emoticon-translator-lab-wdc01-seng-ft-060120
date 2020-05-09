@@ -26,9 +26,6 @@ def get_english_meaning(yaml_file, emoticon)
 
     if value[:japanese] == emoticon
        return meaning
-       # we dont need to put the else statement here. If we have iterated over the entire hash,
-      #  'end' ended our loop and it never hit that if and returned then,
-      #  this would mean that we didn't find the item and should give the apology
   end
 end
 "Sorry, that emoticon was not found"
